@@ -1,0 +1,4 @@
+build_image:
+  script:
+    - docker build -t hub.fxt.cn/jieba-api -f Dockerfile .
+    - docker push hub.fxt.cn/jieba-api
